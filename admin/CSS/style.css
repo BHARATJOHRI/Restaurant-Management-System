@@ -1,0 +1,458 @@
+body{
+     padding: 0;
+     margin: 0;
+}
+#nav{
+     list-style: none;
+     width: 100%;
+     height: 80px;
+     text-align-last:center;
+     background-color:darkblue;
+}
+ul li{
+     display:inline-flex; 
+}
+ul li a{
+     text-decoration: none;
+     padding: 10px;
+     margin: 15px;
+     font-size: 24px;
+     color: white;
+}
+ul li a:hover{
+     background-color:peru;
+     color: white;
+     font-weight:900;
+}
+#heading-1 h1{
+     font-size: 50px;
+     padding-left: 350px;
+     padding-top: 100px;
+     color: white;
+}
+#heading-1 #para_1{
+     color: white;
+     padding-left: 440px;
+}
+#heading-1 #para_2{
+     color: white;
+     padding-left: 530px;
+     padding-top: 200px;
+}
+/*
+#footer-1{
+     width: 100%;
+     height: 40px;
+     background-color: darkblue;
+}
+*/
+
+#discover{
+     padding-top: 50px;
+     padding-left: 150px;
+}
+#discover #para_3{
+     font-size: 50px;  
+}
+#discover #para_3::first-letter{
+     font-size: 70px;
+     font-style: italic;
+}
+#discover #section-1 #para_4{
+     font-size: 20px;
+}
+#section-1{
+     width: 400px;
+     float: left;
+}
+#section-2{
+     width: 600px;
+     float: right;
+}
+#discover-2{
+     padding-top: 50px;
+     padding-left: 20px;
+}
+#discover-2 #section-3{
+     width: 60%;
+     float: left;
+     position: absolute;
+     top: 1420px;
+}
+#discover-2 #section-4{
+     width: 40%;
+     float: right;
+}
+#discover-2 #section-4 #para_5{
+     font-size: 50px;
+     position: absolute;
+     top: 1350px;
+}
+#discover-2 #para_5::first-letter{
+     font-size: 70px;
+     font-style: italic;
+}
+#discover-2 #section-4 #para_6{
+     font-size: 20px;
+     position: absolute;
+     top: 1550px;
+     padding-right: 50px;
+}
+#menu-image{
+     position: absolute;
+     top: 1000px;
+}
+#heading-2 h1{
+     font-size: 30px;
+     padding-left: 540px;
+     padding-top: 100px;
+     color: white;
+}
+#heading-2 p{
+     font-size: 60px;
+     color: white;
+     padding-left: 490px;
+     position: absolute;
+     top: 90px;
+     font-weight: 700;
+}
+#blend-image{
+     position: absolute;
+     top: 1800px;
+}
+#heading-3 h1{
+     font-size: 60px;
+     padding-left: 500px;
+     padding-top: 100px;
+     color: white;
+}
+#heading-3 p{
+     font-size: 40px;
+     color: white;
+     padding-left: 580px;
+     position: absolute;
+     top: 160px;
+     font-weight: 700;
+}
+#discover-3{
+     padding-top: 150px;
+     padding-left: 200px;
+}
+#section-5{
+     width: 400px;
+     float: left;
+}
+#section-6{
+     width: 600px;
+     float: right;
+}
+#discover-3 #para_7{
+     font-size: 50px;
+}
+#discover-3 #para_7::first-letter{
+     font-size: 70px;
+     font-style: italic;
+}
+#discover-3 #section-5 #para_8{
+     font-size: 20px;    
+}
+#welcome{
+     position: absolute;
+     top: 2600px;
+}
+#heading-4 h1{
+     font-size: 40px;
+     padding-left: 550px;
+     padding-top: 100px;
+     color: white;
+}
+#heading-4 p{
+     font-size: 60px;
+     color: white;
+     padding-left: 480px;
+     position: absolute;
+     top: 110px;
+     font-weight: 700;
+}
+footer{
+     width: 100%;
+     height: 70px;
+     position: absolute;
+     top: 2950px;
+     background-color: darkblue;
+     color: white;
+     padding-top: 10px;
+     text-align: center;    
+}
+
+
+/****************RESERVATION****************/
+
+
+#heading-5 h1{
+     margin-left: 550px;
+     margin-top: 100px;
+     color: peru;
+     font-size: 70px;
+     font-style: italic;
+}
+#heading-5 h1::first-letter{
+     font-size: 90px;
+}
+#heading-5 #para_1{
+     margin-left: 470px;
+     color: white;
+     font-size: 60px;
+     position: absolute;
+     top: 220px;
+}
+#vertical-line-1{
+     width: 160px;
+     margin-left: 450px;
+     position: absolute;
+     top: 340px;
+}
+#star-1{
+     position: absolute;
+     top: 340px;
+     margin-left: 640px;
+     color: peru;
+}
+#vertical-line-2{
+     width: 165px;
+     margin-left: 685px;
+     position: absolute;
+     top: 340px;
+}
+#heading-5 #para_2{
+     margin-left: 430px;
+     color: white;
+     font-size: 18px;
+     position: absolute;
+     top: 345px;
+}
+#discover-4{
+     padding-top: 250px;
+     padding-left: 200px;
+}
+#discover-4 #section-7 #para_9{
+     font-size: 50px;  
+     color: peru;
+}
+#discover-4 #section-7 #para_11{
+     font-size: 50px;
+     margin-left: 50px;
+     position: absolute;
+     top: 670px;
+     font-weight: 900;
+     opacity: .9;
+}
+#discover-4 #para_9::first-letter{
+     font-size: 70px;
+     font-style: italic;
+}
+#discover-4 #section-7 #para_10{
+     font-size: 20px;
+     margin-left: -60px;
+}
+#section-7{
+     width: 400px;
+     float: left;
+}
+#section-8{
+     width: 600px;
+     float: right;
+     position: absolute;
+     top: 660px;
+     left: 700px;
+}
+#star-2{
+     margin-left: 100px;
+     color: black;
+     opacity: .4;
+}
+#vertical-line-3{
+     position: absolute;
+     top: 1000px;
+     left: 90px;
+     width: 40%;
+}
+#star-3{
+     position: absolute;
+     top: 1000px;
+     left: 49%;
+     color: peru;
+     
+}
+#vertical-line-4{
+     position: absolute;
+     top: 1000px;
+     left: 53%;
+     width: 40%;
+}
+#discover-5{
+/*     padding-top: 50px;*/
+     padding-left: 200px;
+}
+#discover-5 #section-9{
+     width: 50%;
+     float: left;
+     position: absolute;
+     top: 1120px;
+}
+#discover-5 #section-10{
+     width: 50%;
+     float: right;
+}
+#discover-5 #section-10 #para_11{
+     font-size: 50px;
+     color: peru;
+     position: absolute;
+     top: 1050px;
+}
+#discover-5 #para_11::first-letter{
+     font-size: 70px;
+     font-style: italic;
+}
+#discover-5 #section-10 #para_12{
+     font-size: 50px;
+     position: absolute;
+     top: 1120px;
+     left: 820px;
+     font-weight: 900;
+     opacity: .8;
+}
+#discover-5 #section-10 #para_13{
+     font-size: 20px;
+     position: absolute;
+     top: 1250px;
+     margin-left: -70px;
+     padding-right: 50px;
+     
+}
+#section-10 #star-4{
+     position: absolute;
+     top: 1230px;
+     margin-left: 100px;
+     color: black;
+     opacity: .4; 
+}
+#para_14{
+     position: absolute;
+     top: 1300px;
+     font-size: 20px;
+     opacity: .7;
+     font-weight: 800;
+     margin-left: 30px;
+}
+#section-11{
+     width: 40%;
+     float: left;
+     position: absolute;
+     top: 1900px;
+     left: 100px;
+     font-weight: 100;
+}
+#section-12{
+     width: 40%;
+     float: right;
+     position: absolute;
+     top: 1900px;
+     left: 700px;
+     font-weight: 100;
+}
+#footer-2{
+     position: absolute;
+     top: 1000px;
+}
+
+
+/****************MENU*****************/
+
+#heading-2{
+     margin-top: -400px;
+     margin-left: 100px;
+     color: white;
+     font-size: 40px;
+}
+.swiper-img{
+     position: absolute;
+     top: 200px;
+}
+.swiper-container{
+     width: 90%;
+     margin-top: 70px;
+     margin-bottom: 50px;
+     margin-right: 20px;
+     border: 1px solid black;
+     background: white;
+}
+.swiper-slide{
+     background-position: center;
+     background-size: cover;
+     width: 208px;
+     height: 300px;
+     background: white;
+}
+.swiper-slide .a3{
+     text-decoration: none;
+     color: rgb(0,0,0,.8); 
+}
+.swiper-slide .imgBx{
+     width: 100%;
+     height: 220px;
+     overflow: hidden;
+}
+.swiper-slide .imgBx img{
+     width: 90%;
+     height: 260px;
+}
+.swiper-slide .details{
+     padding-top: 15px;
+     padding-left: 5px;
+}
+.swiper-slide .details p{
+     margin: 0;
+     padding: 0;
+     font-size: 20px;
+     line-height: 23px;
+}
+
+.section-17{
+     padding-left: 60px;
+     color: red;
+}
+
+.swiper-img-2{
+     position: absolute;
+     top: 700px;
+}
+#heading-Veg{
+     margin-left: 100px;
+     position: absolute;
+     top: 600px;
+     color: white;
+     font-size: 40px;
+}
+#heading-Dosa{
+     margin-left: 100px;
+     position: absolute;
+     top: 1100px;
+     color: white;
+     font-size: 40px;
+}
+.swiper-img-3{
+     position: absolute;
+     top: 1200px;
+}
+#heading-Paneer{
+     margin-left: 100px;
+     position: absolute;
+     top: 1600px;
+     color: white;
+     font-size: 40px;
+}
+.swiper-img-4{
+     position: absolute;
+     top: 1700px;
+}
